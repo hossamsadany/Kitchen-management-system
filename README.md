@@ -16,8 +16,7 @@ The Kitchen Management App: Streamline kitchen operations, manage orders, invent
 
 1. Clone the repository: https://github.com/hossamsadany/Kitchen-management-system/tree/main
 2. Navigate to the project directory: Kitchen Management system
-3. Install the required dependencies: pip install -r requirements.txt
-4. Set up the database:
+3. Set up the database:
 
 - Make sure you have SQLite installed.
 - Run the following command to create the database:
