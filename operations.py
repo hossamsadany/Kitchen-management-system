@@ -500,7 +500,7 @@ class OperationWindow(QMainWindow):
                     conn.commit()
                     
                     # Refresh the table widget to show the updated data
-                    self.load_data(table=self.Inventory_table, sql_table="Inventory", Inventory=True)
+                    self.load_data(table=self.inventory_table, sql_table="Inventory", Inventory=True)
                     
                     # Close the form
                     form.close()
@@ -819,7 +819,7 @@ class OperationWindow(QMainWindow):
 
                 conn.commit()
                 # refresh the table widget to show the updated or new item
-                self.load_data(table=self.Inventory_table, sql_table="Inventory", purchase=True)
+                self.load_data(table=self.inventory_table, sql_table="Inventory", purchase=True)
                 # close the form
                 form.close()
    
